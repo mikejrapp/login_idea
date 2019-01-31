@@ -1,0 +1,11 @@
+.grid{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    display: grid;
+
+    margin: 10vh auto 0 auto;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}

@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  width: 100vw;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.login-cover {
+  position: relative;
+  width: 40vw;
+  height: 50vh;
+  background-color: #7697a0;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  border-radius: 2.5rem;
+  z-index: 100;
+  transition: all 1.2s;
+  box-shadow: 0 1rem 1rem grey;
+}
+.login-cover:hover {
+  transform: translateX(20rem);
+}
+
+.login-panel {
+  position: relative;
+  width: 40vw;
+  height: 50vh;
+  background-color: #ddd;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  border-radius: 2.5rem;
+  box-shadow: 0 1rem 1rem grey;
+}
+
+.grid {
+  position: relative;
+  height: 90%;
+  width: 90%;
+  display: grid;
+  margin: 10vh auto 0 auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*# sourceMappingURL=app.css.map */
