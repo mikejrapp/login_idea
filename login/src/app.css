@@ -21,10 +21,6 @@ html {
   transition: all 1.2s;
   box-shadow: 0 1rem 1rem grey;
 }
-.login-cover:hover {
-  transform: translateX(25rem);
-  border-radius: 3rem;
-}
 
 .login-panel {
   position: relative;
