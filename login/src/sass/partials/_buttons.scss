@@ -1,0 +1,33 @@
+.button-wrapper{
+    margin-top: 25rem;
+}
+
+.button{
+    position: relative;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: $color-main;
+
+    margin: 2rem auto 0 auto;
+
+    color: #ddd;
+
+    border-radius: 2.5rem;
+
+    transition: all .2s;
+
+    &:hover{
+        box-shadow: 0 .5rem .6rem #444444;
+        transform: scale(1.05) translateY(-.5rem);
+    }
+
+}
+
+.button-title{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: .2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}

@@ -2,7 +2,7 @@
     position: relative;
     width: 40vw;
     height: 50vh;
-    background-color: $color-mid;
+    background-color: $color-light;
 
     grid-column-start: 2;
     grid-column-end: 3;
@@ -18,7 +18,8 @@
     box-shadow: 0 1rem 1rem grey;
 
     &:hover{
-        transform: translateX(20rem);
+        transform: translateX(25rem);
+        border-radius: 3rem;
     }
 }
 

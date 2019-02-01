@@ -11,7 +11,7 @@ html {
   position: relative;
   width: 40vw;
   height: 50vh;
-  background-color: #7697a0;
+  background-color: #94b0b7;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -22,7 +22,8 @@ html {
   box-shadow: 0 1rem 1rem grey;
 }
 .login-cover:hover {
-  transform: translateX(20rem);
+  transform: translateX(25rem);
+  border-radius: 3rem;
 }
 
 .login-panel {
@@ -46,6 +47,34 @@ html {
   margin: 10vh auto 0 auto;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button-wrapper {
+  margin-top: 25rem;
+}
+
+.button {
+  position: relative;
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #4a707a;
+  margin: 2rem auto 0 auto;
+  color: #ddd;
+  border-radius: 2.5rem;
+  transition: all 0.2s;
+}
+.button:hover {
+  box-shadow: 0 0.5rem 0.6rem #444444;
+  transform: scale(1.05) translateY(-0.5rem);
+}
+
+.button-title {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.2rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=app.css.map */
