@@ -67,7 +67,7 @@ html {
 .button:active {
   cursor: pointer;
   box-shadow: 0 0.5rem 0.3rem #444444;
-  transform: scale(1) translate(0);
+  transform: scale(1.02) translate(-0.3rem);
 }
 
 .button-title {

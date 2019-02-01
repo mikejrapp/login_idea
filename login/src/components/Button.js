@@ -1,9 +1,10 @@
 import React from "react";
+import {shiftPanel} from "../scripts/shiftPanel";
 
 const Button = (props) =>{
     return(
         <div className={"button"} onClick={() =>
-            props.handleClick(props.name === "Login" ? "right" : "left")
+            shiftPanel(props.name)
         }>
             <div className={"button-title"}>{props.name}</div>
         </div>
